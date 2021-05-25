@@ -21,6 +21,8 @@
 		B7009C012654ACED00EE0343 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7009C002654ACED00EE0343 /* ContentDetailView.swift */; };
 		B7009C042654B19D00EE0343 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7009C032654B19D00EE0343 /* AVKit.framework */; };
 		B7009C062654B35C00EE0343 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7009C052654B35C00EE0343 /* Constants.swift */; };
+		B7009C08265A05D200EE0343 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7009C07265A05D200EE0343 /* CodeTextView.swift */; };
+		B7009C0A265CA08100EE0343 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7009C09265CA08100EE0343 /* RectangleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		B7009C002654ACED00EE0343 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		B7009C032654B19D00EE0343 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		B7009C052654B35C00EE0343 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7009C07265A05D200EE0343 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		B7009C09265CA08100EE0343 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				B7009BFC26549D4A00EE0343 /* ContentView.swift */,
 				B7009BFE2654A87000EE0343 /* ContentViewRow.swift */,
 				B7009C002654ACED00EE0343 /* ContentDetailView.swift */,
+				B7009C07265A05D200EE0343 /* CodeTextView.swift */,
+				B7009C09265CA08100EE0343 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 				B7009BFD26549D4A00EE0343 /* ContentView.swift in Sources */,
 				B7009C012654ACED00EE0343 /* ContentDetailView.swift in Sources */,
 				B7009BDF2653572A00EE0343 /* LearningApp.swift in Sources */,
+				B7009C08265A05D200EE0343 /* CodeTextView.swift in Sources */,
 				B7009BFF2654A87000EE0343 /* ContentViewRow.swift in Sources */,
 				B7009BF3265358F600EE0343 /* ContentModel.swift in Sources */,
+				B7009C0A265CA08100EE0343 /* RectangleCard.swift in Sources */,
 				B7009BF926535E3A00EE0343 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

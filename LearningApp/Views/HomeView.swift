@@ -32,6 +32,8 @@ struct HomeView: View {
                                         model.beginModule(module.id)
                                     })
                                 ,
+                                tag: module.id,
+                                selection: $model.currentContentSelected,
                                 label: {
                                     
                                 // Learning card
